@@ -165,4 +165,19 @@ footer{
 }
 .footer-list{
     padding: 0;
+    list-style: none;
+}
+
+.map:hover,
+.map:focus,
+.footer-nav:focus,
+.footer-nav:hover
+
+{
+    color:  #2196F3;
+    list-style: none;
+    
+    
+
+
 }
