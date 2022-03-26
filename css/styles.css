@@ -1,12 +1,24 @@
+:root{ 
+--primery-title-color:#212121;
+--primery-text-color:#757575;
+--primery-text-bgc:#FFFFFF;
+--header-color: #ffffff;
+--acent-color:#2196F3;
+--primery-bgc:#E5E5E5;
+--secondary-bgc:#F5F4FA;
+--footer-color:#2F303A;
+
+}
+
+
 body{   
   
-    color: #757575;
+    background-color: var(--primery-bgc);
+    color: var(--primery-text-color);
     margin: 0;
 }
 main{
-    margin: 0;
-    padding: 0;
-    border: 0;
+ 
 }
 /* dcvcd */
 /* основной текст заголовков  rgba(33, 33, 33, 1)  #212121*/
@@ -21,7 +33,7 @@ main{
 /*цвет футер b героя #2F303A*/
 
 header{
-    background: #FFFFFF;
+    background-color: var(--header-color);
      padding-left: 215px;
 }
 .site-nav,
@@ -35,24 +47,22 @@ header{
     padding: 0;
 }
 .list {
-    list-style: none;
-    
-   
+    list-style: none;}
 
-}
+
 .link{
-    color: #212121;
-    text-decoration: none
-}
+    color: var(--primery-title-color);
+    text-decoration: none}
+
  .link:hover,
  .link:focus
 {
-    color: #2196F3;
+    color: var(--acent-color);
 }
 
 
 .logo{  
-    color: black; 
+    color: var(--primery-title-color); 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -63,31 +73,31 @@ header{
 }
 
 .logo-color{
-    color: #2196F3;
+    color: var(--acent-color);
 }
 .logo >.secondary{
-    color: #FFFFFF;
+    color: var(--primery-text-bgc);
 }
 
 
 /*HERO*/
 .hero-section
  {
-    color: #FFFFFF;
-    ackground-color: #2F303A;
+    color: var(--primery-text-bgc) ;
+    background-color: var(--footer-color);
 }
 
 
 /*section*/
 
 
-.section.primery{
-    background-color: #F5F4FA;
+section.primery{
+    background-color: var(--secondary-bgc);
     margin: 0%;
 
 }
 .section.secondary {
-    background-color:  #F5F4FA;
+    background-color: var(--secondary-bgc) ;
 }
 .section {
     font-family: 'Roboto';
@@ -96,7 +106,8 @@ header{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575; 
+   
+   
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
@@ -108,10 +119,10 @@ header{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
+    color: var(--primery-title-color);
     letter-spacing: 0.03em;
 
-color: #212121;
+
 
 }
 .section-text{
@@ -121,10 +132,11 @@ color: #212121;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: #212121;
+     color: var(--primery-title-color);
+    
 }
 .nocolour {
-     background-color: #E5E5E5;
+     
     color: rgb(255, 0, 13, 0);
 }
 
@@ -134,9 +146,9 @@ color: #212121;
 
 footer{
   
-  text-align: left;
 
-    background-color: #2F303A;
+
+    background-color: var(--footer-color) ;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -149,9 +161,9 @@ footer{
 
     
 .map{
-    color: #ffffff;
+    color: var(--primery-text-bgc) ;
     text-decoration: none;
-    padding: 0;
+    
     
   
 }
@@ -159,7 +171,7 @@ footer{
 .footer-nav{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding: 0;
+    
   
 
 }
@@ -174,7 +186,7 @@ footer{
 .footer-nav:hover
 
 {
-    color:  #2196F3;
+    color: var(--acent-color) ;
     list-style: none;
     
     
