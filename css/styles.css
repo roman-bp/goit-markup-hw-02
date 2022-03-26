@@ -59,7 +59,9 @@ header{
 {
     color: var(--acent-color);
 }
-
+.site-nav .link.current{
+   color: var(--acent-color) ;
+}
 
 .logo{  
     color: var(--primery-title-color); 
@@ -205,4 +207,17 @@ footer{
     
 
 
+}/*Портфолио*/
+
+
+.nav-button{
+    border: none;
+    color: var(--primery-title-color);
+    background-color: var(--primery-bgc) ;
+}
+.nav-button:hover,
+.nav-button:focus
+{
+    color: var(--primery-text-bgc);
+    background-color: var(--acent-color) ;
 }
