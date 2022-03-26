@@ -16,11 +16,12 @@ body{
     background-color: var(--primery-bgc);
     color: var(--primery-text-color);
     margin: 0;
+    font-family: Roboto, sans-serif;
+     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px
 }
-main{
- 
-}
-/* dcvcd */
 /* основной текст заголовков  rgba(33, 33, 33, 1)  #212121*/
 /*основной цвет текста rgba(117, 117, 117, 1)  #757575*/
 /*основной цвет на фоне rgba(255, 255, 255, 1)  #FFFFFF*/
@@ -36,6 +37,9 @@ header{
     background-color: var(--header-color);
      padding-left: 215px;
 }
+
+cursor: pointer;
+
 .site-nav,
 .addr-nav
 {   font-family: 'Roboto';
@@ -53,6 +57,7 @@ header{
 .link{
     color: var(--primery-title-color);
     text-decoration: none}
+.link.light{ color: var(--primery-text-color);}
 
  .link:hover,
  .link:focus
@@ -69,7 +74,7 @@ header{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 119%;
     text-decoration: none;
     
 }
@@ -91,6 +96,7 @@ header{
 .button{
     color: var(--primery-text-bgc);
     background-color: var(--acent-color);
+    cursor: pointer;
  /*  position: absolute;
 width: 200px;
 height: 50px;
@@ -115,10 +121,7 @@ section.primery{
     background-color: var(--secondary-bgc) ;
 }
 .section {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    
     line-height: 24px;
     letter-spacing: 0.03em;
    
@@ -133,7 +136,7 @@ section.primery{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 116%;
     color: var(--primery-title-color);
     letter-spacing: 0.03em;
 
@@ -145,7 +148,7 @@ section.primery{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 119%;
     letter-spacing: 0.03em;
      color: var(--primery-title-color);
     
@@ -168,7 +171,7 @@ footer{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 171%;
     letter-spacing: 0.03em;
     padding-left: 215px;
 
@@ -214,6 +217,7 @@ footer{
     border: none;
     color: var(--primery-title-color);
     background-color: var(--primery-bgc) ;
+    cursor: pointer;
 }
 .nav-button:hover,
 .nav-button:focus
