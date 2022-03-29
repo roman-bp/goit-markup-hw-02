@@ -16,31 +16,9 @@ body{
     color: var(--primery-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    
-
-    
 }
-/* основной текст заголовков  rgba(33, 33, 33, 1)  #212121*/
-/*основной цвет текста rgba(117, 117, 117, 1)  #757575*/
-/*основной цвет на фоне rgba(255, 255, 255, 1)  #FFFFFF*/
-/*цвет акцента rgba(33, 150, 243, 1)   #2196F3*/
-/*цвет адресов rgba(255, 255, 255, 0.6); */
 
-/*основной фон #E5E5E5*/
-/*вторичный фон #F5F4FA*/
-/*цвет хедер  #FFFFFF*/
-/*цвет футер b героя #2F303A*/
-/*
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;*/
-
-
+/*----------------------header------------*/    
 
 
 .site-nav,
@@ -91,7 +69,7 @@ color: #212121;*/
 }
 
 
-/*HERO*/
+/*------------------------HERO--------------------------*/
 .hero-title{
     font-family: 'Roboto';
 font-weight: 900;
@@ -101,8 +79,6 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
-
-
 
 .hero-section
  {
@@ -123,13 +99,7 @@ text-transform: uppercase;
     cursor: pointer;}
     
 
-.nav-button.portfolio {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primery-title-color);}
+
 
 .section.secondary {
     background-color: var(--secondary-bgc) ;
@@ -139,6 +109,7 @@ color: var(--primery-title-color);}
 {
      color: var(--header-color);
     }
+    
 .section-title
 {
     color: var(--primery-title-color) ;
@@ -161,13 +132,11 @@ color: var(--primery-title-color);}
      color: var(--primery-title-color);}
     
 .section-description{
-font-size: 14px;
-line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
 
 }
     
-}
-
 
 .comand-text {
     color: var(--primery-title-color);
@@ -180,15 +149,14 @@ line-height: 1.71;
 .comand-description {
     color: var(--primery-text-color);
     font-family: 'Roboto';
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 
 }
 
 
-/*footer*/
+/*-------------------------footer------------------------------*/
 
 .footer{
   
@@ -228,15 +196,11 @@ line-height: 1.19;
 .map:focus,
 .footer-nav:focus,
 .footer-nav:hover
-
 {
     color: var(--acent-color) ;
     list-style: none;
-    
-    
-
-
-}/*--------------------Портфолио--------------------------------*/
+}
+/*--------------------Портфолио--------------------------------*/
 
 
 .nav-button{
@@ -252,19 +216,26 @@ line-height: 1.19;
     background-color: var(--acent-color) ;
 }
 .portf-text{
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--primery-title-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-title-color);
 }
 .portf-description{
     
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--primery-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
 }
+.nav-button.portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-title-color);}
