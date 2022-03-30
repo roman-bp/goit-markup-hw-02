@@ -237,6 +237,7 @@ font-style: normal;
     color: var(--primery-text-color);
 }
 .nav-button.portfolio {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
