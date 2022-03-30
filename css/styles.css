@@ -154,7 +154,7 @@ color: var(--text-color);
 }
 
 /*------------------------------------footer-------------------------*/
-.footer{
+.fter{
     background-color: var(--footer-bgc) ;
 }
 .footer-logo{
