@@ -18,21 +18,21 @@
 </head>
 
 <body>
-    <!--хедер-->
-    <header>
+    <!---------------------------------хедер--------------------------------------->
+    <header class="header">
         <nav>
-            <a href="index.html" class="logo">
+            <a href="index.html" class="header-logo link">
                 <span class="logo-color"> Web</span>Studio
             </a>
-            <ul class="site-nav list">
-                <li><a href="index.html" class="link current">Студия</a></li>
-                <li><a href="portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+            <ul class="header-nav list">
+                <li><a class="header-nav-text link current" href="index.html">Студия</a></li>
+                <li><a class="header-nav-text link" href="portfolio.html">Портфолио</a></li>
+                <li><a class="header-nav-text link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="addr-nav list">
-            <li><a href="mailto:info@devstudio.com" class="link light">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link light">+38 096 111 11 11</a></li>
+        <ul class="header-addres list">
+            <li><a href="mailto:info@devstudio.com" class="header-addres-text link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="header-addres-text link">+38 096 111 11 11</a></li>
 
 
         </ul>
@@ -41,45 +41,47 @@
     </header>
     <!--MAIN-->
     <main>
-        <!--hero section-->
-        <section class="hero-section">
+        <!-----------------------------hero section--------------------------------------->
+
+
+        <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+            <button type="button" class="btn hero-btn-text ">Заказать услугу</button>
         </section>
         <!---section2-->
-        <section class="section">
-            <h2 class="nocolour">Наши сильные стороны</h2>
+        <section class="about">
+            <h2 class="about-title notext">Наши сильные стороны</h2>
             <ul class="list">
                 <li>
-                    <h3 class="section-text">Внимание к деталям</h3>
-                    <p class="section-description">Идейные соображения, а также начало повседневной работы по
+                    <h3 class="about-post-title">Внимание к деталям</h3>
+                    <p class="about-text">Идейные соображения, а также начало повседневной работы по
                         формированию позиции.
                     </p>
                 </li>
                 <li>
-                    <h3 class="section-text">Пунктуальность</h3>
-                    <p class="section-description">Задача организации, в особенности же рамки и место обучения кадров
+                    <h3 class="about-post-title">Пунктуальность</h3>
+                    <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров
                         влечет за
                         собой.</p>
                 </li>
 
                 <li>
-                    <h3 class="section-text">Планирование</h3>
-                    <p class="section-description">Равным образом консультация с широким активом в значительной степени
+                    <h3 class="about-post-title">Планирование</h3>
+                    <p class="about-text">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
 
                 <li>
-                    <h3 class="section-text">Современные технологии</h3>
-                    <p class="section-description">Значимость этих проблем настолько очевидна, что реализация плановых
+                    <h3 class="about-post-title">Современные технологии</h3>
+                    <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
                 </li>
 
             </ul>
         </section>
         <!--section3-->
-        <section class="section list">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+        <section class="work">
+            <h2 class="work-title">Чем мы занимаемся</h2>
             <ul class="list">
                 <li><img src="./images/box1.jpg" width="370" alt="человек верстает код"></li>
 
@@ -89,27 +91,27 @@
             </ul>
         </section>
         <!--section4-->
-        <section class="section secondary">
-            <h2 class="section-title">Наша команда</h2>
+        <section class="comand">
+            <h2 class="comant-title">Наша команда</h2>
             <ul class="list">
                 <li><img src="./images/img1.jpg" width="270" alt="Фото Игоря Демьяненка">
-                    <h3 class="comand-text">Игорь Демьяненко</h3>
-                    <p class="comand-description">Product Designer</p>
+                    <h3 class="comand-post-title">Игорь Демьяненко</h3>
+                    <p class="comand-text">Product Designer</p>
                 </li>
 
                 <li><img src="./images/img2.jpg" width="270" alt="фото Ольги Репиной">
-                    <h3 class="comand-text">Ольга Репина</h3>
-                    <p class="comand-description">Frontend Developer</p>
+                    <h3 class="comand-post-title">Ольга Репина</h3>
+                    <p class="comand-text">Frontend Developer</p>
                 </li>
 
                 <li><img src="./images/img3.jpg" width="270" alt="Фото Николая Тарасова">
-                    <h3 class="comand-text">Николай Тарасов</h3>
-                    <p class="comand-description">Marketing</p>
+                    <h3 class="comand-post-title">Николай Тарасов</h3>
+                    <p class="comand-text">Marketing</p>
                 </li>
 
                 <li><img src="./images/img4.jpg" width="270" alt="Фото Михаила Ермакова">
-                    <h3 class="comand-text">Михаил Ермаков</h3>
-                    <p class="comand-description">UI Designer</p>
+                    <h3 class="comand-post-title">Михаил Ермаков</h3>
+                    <p class="comand-text">UI Designer</p>
                 </li>
 
 
@@ -119,15 +121,15 @@
 
     <footer>
         <section class="footer">
-            <a href="index.html" class="logo ">
-                <span class="logo-color "> Web</span><span class="logo secondary">Studio</span>
+            <a href="index.html" class="footer-logo link">
+                <span class="logo-color"> Web</span><span class="">Studio</span>
             </a>
-            <address class="footer-adress">
-                <ul class="footer-list">
+            <address class="">
+                <ul class="list">
                     <li><a href="https://www.google.com/maps/d/embed?mid=1ha2ieTyIqRlce1c0PHE3r7fh1XY&ehbc=2E312F"
-                            target="_blank" class="map">г. Киев,Бульвар Леси Украинки, 26</a></li>
-                    <li> <a href="mailto:info@example.com" class="footer-nav">info@example.com</a></li>
-                    <li><a href="tel:+380961111111" class="footer-nav">+38 096 111 11 11</a></li>
+                            target="_blank" class="footer-map link">г. Киев,Бульвар Леси Украинки, 26</a></li>
+                    <li> <a href="mailto:info@example.com" class="footer-addres link">info@example.com</a></li>
+                    <li><a href="tel:+380961111111" class="footer-addres link">+38 096 111 11 11</a></li>
                 </ul>
 
 

@@ -1,248 +1,232 @@
-:root{ 
---primery-title-color:#212121;
---primery-text-color:#757575;
---primery-text-bgc:#FFFFFF;
---header-color: #ffffff;
---acent-color:#2196F3;
---secondary-bgc:#F5F4FA;
---footer-color:#2F303A;
+:root {
+    
+ --first-header-color: #212121;
+ --second-header-color:#757575;
+ --title-color: #212121;
+ --text-color:#757575;
+ --hero-title-color:#FFFFFF;
+ --btn-color:#2196F3;
+ --btn-text-color: #ffffff;
+ --btn-secondary-color: #212121;
+ --accent-color: #2196F3;
+ --first-bgc: #ffffff;
+ --second-bgc:#F5F4FA;
+ --hero-bgc:#2F303A;
+ --footer-bgc:#2F303A;
+ --addres-color: rgba(255, 255, 255, 0.6);
+}
 
+body{
+ font-family: "Roboto", sans-serif;
+ background-color: var(--first-bgc)
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--first-header-color)
 }
 
 
-body{   
-  
-    background-color: var(--primery-text-bgc);
-    color: var(--primery-text-color);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+/*--------------------------header-----------------------------------*/
+
+.header-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em
+    color: var(--first-header-color)
 }
 
-/*----------------------header------------*/    
+.logo-color{
+    color:var(--accent-color)
+}
 
-
-.site-nav,
-.addr-nav
-{   font-family: 'Roboto';
-    font-style: normal;
+.header-nav-text{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    cursor: pointer;
-   
-}
-.list {
-    list-style: none;}
-
-
-.link{
-    color: var(--primery-title-color);
-    text-decoration: none}
-.link.light{ color: var(--primery-text-color);}
-
- .link:hover,
- .link:focus
-{
-    color: var(--acent-color);
-}
-.site-nav .link.current{
-   color: var(--acent-color) ;
-}
-
-.logo{  
-    color: var(--primery-title-color); 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-    
-}
-
-.logo-color{
-    color: var(--acent-color);
-}
-.logo.secondary{
-    color: var(--primery-text-bgc);
+    color: var(--first-header-color);
 }
 
 
-/*------------------------HERO--------------------------*/
-.hero-title{
-    font-family: 'Roboto';
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.header-addres-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-header-color);
 }
 
-.hero-section
+.header-nav-text:hover,
+.header-nav-text:focus,
+.header-addres-text:hover,
+.header-addres-text:focus,
+.current
  {
-    color: var(--primery-text-bgc) ;
-    background-color: var(--footer-color);
+    color: var(--accent-color);
 }
-.button{
-    font-family: 'Roboto';
+
+
+/*--------------------------------HERO--------------------------------------*/
+
+.hero {
+    background-color: var(--hero-bgc) ;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color)
+}
+
+.btn{
+background-color:  var(--btn-color);}
+
+.hero-btn-text {
+    color: var(--btn-text-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-    /*display: flex;
-    align-items: center;
-    text-align: center;*/
-    letter-spacing: 0.06em;
-    color: var(--primery-text-bgc);
-    background-color: var(--acent-color);
-    cursor: pointer;}
-    
-
-
-
-.section.secondary {
-    background-color: var(--secondary-bgc) ;
-}
-
-.nocolour
-{
-     color: var(--header-color);
+    line-height:  1.88;
+    letter-spacing: 0.06em;   
     }
-    
-.section-title
-{
-    color: var(--primery-title-color) ;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+/*---------------------section-about--------------------------*/
 
+.about-title {
 }
-.section-text{
-   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;    
-     font-size: 14px;
-    line-height: 1.14;
+.notext {
+    color: var(--hero-title-color);
+}
+
+.about-post-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14 ;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-     color: var(--primery-title-color);}
-    
-.section-description{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    color: var(--title-color);
+    }
+.about-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color);
 
 }
-    
+ 
+/*---------------------------------section-work---------------------*/
 
-.comand-text {
-    color: var(--primery-title-color);
-    font-family: 'Roboto';
+.work-title,
+.comant-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+/*--------------------------------section-command----------------------*/
+
+.comand {
+    background-color: var(--second-bgc) ;
+}
+
+
+.comand-post-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--title-color);
 }
-.comand-description {
-    color: var(--primery-text-color);
-    font-family: 'Roboto';
-    font-weight: 400;
+.comand-text {
     font-size: 16px;
     line-height: 1.19;
-
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
-
-/*-------------------------footer------------------------------*/
-
+/*------------------------------------footer-------------------------*/
 .footer{
-  
+    background-color: var(--footer-bgc) ;
+}
+.footer-logo{
 
-
-    background-color: var(--footer-color) ;
-    font-family: 'Roboto';
-    
-    font-weight: 400;
+    font-family: 'Raleway';
+   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hero-title-color);
+}
+.footer-map {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    color: var(--hero-title-color);
 }
-
-.footer-adress{
-font-style: normal;
-}  
-.map{
-    color: var(--primery-text-bgc) ;
-    text-decoration: none;
-    
-    
-  
-}
-
-.footer-nav{
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    
-  
-
-}
-.footer-list{
-   
-    list-style: none;
-}
-
-.map:hover,
-.map:focus,
-.footer-nav:focus,
-.footer-nav:hover
-{
-    color: var(--acent-color) ;
-    list-style: none;
-}
-/*--------------------Портфолио--------------------------------*/
-
-
-.nav-button{
-    border: none;
-    color: var(--primery-title-color);
-    background-color: var(--primery-bgc) ;
-    cursor: pointer;
-}
-
-
-.portf-text{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--primery-title-color);
-}
-.portf-description{
-    
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
+.footer-addres {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    color: var(--addres-color);
+
 }
-.nav-button.portfolio {
+.footer-map:hover,
+.footer-map:focus,
+.footer-addres:hover,
+.footer-addres:focus{
+    color: var(--accent-color);
+}
+
+
+
+
+
+/*-------------------------------PORTFOLIO-------------------------------*/
+/*-------------------------------nav-section-----------------------------*/
+.portf-btn-text{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primery-title-color);}
-    
-.nav-button:hover,
-.nav-button:focus
-{
-    color: var(--primery-text-bgc);
-    background-color: var(--acent-color)}
+    color: var(--btn-secondary-color) ;
+    border: none;
+    background-color: var(--first-bgc);
+
+}
+
+.portf-btn-text:hover,
+.portf-btn-text:focus{
+    color: var(--btn-text-color);
+    background-color: var(--accent-color) ;
+}
+
+/*-----------------------------portf-work-section----------------------------*/
+
+.portfolio-post-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+
+}
+.portfolio-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+
+color: var(--text-color);
+}
