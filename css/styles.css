@@ -213,11 +213,7 @@ font-style: normal;
     background-color: var(--primery-bgc) ;
     cursor: pointer;
 }
-.nav-button:hover,
-.nav-button:focus
-{
-    color: var(--primery-text-bgc);
-    background-color: var(--acent-color) ;
+ ;
 }
 .portf-text{
     font-family: 'Roboto';
@@ -244,3 +240,8 @@ font-style: normal;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-title-color);}
+    .nav-button:hover,
+.nav-button:focus
+{
+    color: var(--primery-text-bgc);
+    background-color: var(--acent-color)
