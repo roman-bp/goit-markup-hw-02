@@ -45,22 +45,21 @@ body {
     color: var(--accent-color)
 }
 
-.header-text {}
-
-.header-nav-text {
+.header-fonts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.header-nav-text {
+
     color: var(--first-header-color);
 }
 
 
 .header-addres-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+
     color: var(--second-header-color);
 }
 
@@ -142,19 +141,18 @@ body {
     background-color: var(--second-bgc);
 }
 
-
-.comand-post-title {
-    font-weight: 500;
+.com-fonts {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+
+.comand-post-title {
+    font-weight: 500;
     color: var(--title-color);
 }
 
 .comand-text {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
@@ -174,19 +172,20 @@ body {
     color: var(--hero-title-color);
 }
 
-.footer-map {
+.foot-fonts {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.footer-map {
+
     color: var(--hero-title-color);
 }
 
 .footer-addres {
-    font-size: 14px;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+
     color: var(--addres-color);
 
 }
